@@ -1,0 +1,58 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.top button {
+    background-color: black;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn {
+    border-radius: 10px;
+}
+#start-screen {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+#start-screen .welcome {
+    text-align: center;
+}
+
+#start-screen .clickany {
+    text-align: center;
+}
+.hide{
+    display: none !important;
+}
+.game-area{
+    height: 94.5vh;
+    background-color: black;
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+.car{
+    position: absolute;
+    height: 80px;
+    width: 30px;
+    margin: 20px;
+    bottom: 0px;
+    
+    
+}
